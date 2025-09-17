@@ -61,6 +61,8 @@ legal_doc_reviewer/
 └── README.md              
 
 ```
+## Architecture
+<img width="430" height="787" alt="image" src="https://github.com/user-attachments/assets/c86d687e-b9bb-49a5-826f-06565f315314" />
 
 ## ⚙️ Installation
 1. Clone Repo
