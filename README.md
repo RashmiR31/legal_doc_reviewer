@@ -79,3 +79,48 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+## 🔑 Environment Setup
+Set your OpenAI API key:
+```
+export OPENAI_API_KEY="sk-..."
+```
+
+On Windows (PowerShell):
+```
+$env:OPENAI_API_KEY="sk-..."
+```
+
+## Usage
+Run the app:
+```
+streamlit run app.py
+```
+Open http://localhost:8501 in your browser.
+
+## 🖥 How It Works
+
+1. Upload Documents → Drag and drop PDF/DOCX/TXT.
+
+2. Process Documents: Ingest / Rebuild Index → Extracts text, splits into chunks, builds FAISS vector index.
+
+3. Ask Questions → Query documents with Retrieval QA.
+
+4. Returns direct answers + expandable source snippets.
+
+5. Run Audit →
+    - Quick Scan: Checks for key clauses using keyword matching.
+    - LLM Audit: Generates a full checklist and suggests drafts for missing clauses.
+
+## Future Enhancements
+
+- Integrate LangGraph Agentic AI for multi-step audits.
+
+- Multi-user access with role-based document management.
+
+- Export audit report as PDF/Word with structured formatting.
+
+- Fine-tuned legal clause detection with custom models.
+
+## Author
+Rashmi R
