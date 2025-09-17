@@ -1,0 +1,6 @@
+UPLOAD_DIR = "uploads"
+PERSIST_DIR = "faiss_index"
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 200
+EMBEDDING_MODEL = "text-embedding-3-small"
+LLM_MODEL = "gpt-3.5-turbo"
